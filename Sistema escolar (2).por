@@ -29,11 +29,14 @@ programa {
        frequencia = ((qtd_aulas - faltas) / qtd_aulas) * 100// Até o momento feito por - Daniel
 
        se (media >= 7 e frequencia >= 75){
-       escreva("Passo")
+       escreva("Passou")
        }senao{
        escreva("Reprovou")//ouve algumas alterações  - Thiago
        	}
-       
+
+       escreva("\n------------------------------------------------------")
+       escreva("\naluno ", nome, ", na disciplina de ", disciplina, " ficou com o seguinte resultado:")
+       escreva("\nMédia:", media, "  Frequência escolar: ", frequencia)
       
 
 
@@ -46,7 +49,7 @@ programa {
  * Esta seção do arquivo guarda informações do Portugol Studio.
  * Você pode apagá-la se estiver utilizando outro editor.
  * 
- * @POSICAO-CURSOR = 873; 
+ * @POSICAO-CURSOR = 1136; 
  * @PONTOS-DE-PARADA = ;
  * @SIMBOLOS-INSPECIONADOS = ;
  * @FILTRO-ARVORE-TIPOS-DE-DADO = inteiro, real, logico, cadeia, caracter, vazio;
