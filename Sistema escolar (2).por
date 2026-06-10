@@ -26,10 +26,29 @@ programa {
       leia(faltas)
 
        media = (nota1 + nota2 + nota3) / 3
-       frequencia = (faltas / qtd_aulas) * 100
+       frequencia = ((qtd_aulas - faltas) / qtd_aulas) * 100// Até o momento feito por - Daniel
 
-      escreva(media, "\n", frequencia) // Até o momento feito por - Daniel
+       se (media >= 7 e frequencia >= 75){
+       escreva("Passo")
+       }senao{
+       escreva("Reprovou")//ouve algumas alterações  - Thiago
+       	}
+       
+      
 
 
   }
 }
+
+
+/* $$$ Portugol Studio $$$ 
+ * 
+ * Esta seção do arquivo guarda informações do Portugol Studio.
+ * Você pode apagá-la se estiver utilizando outro editor.
+ * 
+ * @POSICAO-CURSOR = 873; 
+ * @PONTOS-DE-PARADA = ;
+ * @SIMBOLOS-INSPECIONADOS = ;
+ * @FILTRO-ARVORE-TIPOS-DE-DADO = inteiro, real, logico, cadeia, caracter, vazio;
+ * @FILTRO-ARVORE-TIPOS-DE-SIMBOLO = variavel, vetor, matriz, funcao;
+ */
