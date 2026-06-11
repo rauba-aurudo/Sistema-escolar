@@ -29,9 +29,11 @@ programa {
        frequencia = ((qtd_aulas - faltas) / qtd_aulas) * 100// Até o momento feito por - Daniel
 
        se (media >= 7 e frequencia >= 75){
-       escreva("Passou")
+       escreva("\n------------------------------------------------------")
+       escreva("\nO Aluno passou")
        }senao{
-       escreva("Reprovou")//ouve algumas alterações  - Thiago
+       escreva("\n------------------------------------------------------")
+       escreva("\nO Aluno reprovou")//ouve algumas alterações  - Thiago
        	}
 
        escreva("\n------------------------------------------------------")
